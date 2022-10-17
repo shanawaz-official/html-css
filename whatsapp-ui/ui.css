@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*header styling*/
+.head {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  height: 100px;
+  width: 100%;
+
+}
+
+/*first list styling*/
+.first-list {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.text {
+  top: 5px;
+  position: absolute;
+  color: white;
+}
+
+.s-icon {
+  top: 5px;
+  position: absolute;
+  right: 50px;
+  color: white;
+}
+
+.m-icon {
+  top: 5px;
+  position: absolute;
+  right: 0px;
+}
+
+.s-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.m-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/*second list styling*/
+.second-list {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.second-list div {
+  color: white;
+}
+
+.camera {
+  position: relative;
+  top: 10px;
+}
+
+.camera img {
+  width: 30px;
+  height: 30px;
+}
+
+/*main box styling*/
+.main-box {
+  height: 500px;
+  width: 100%;
+}
+
+.chatlist {
+  float: left;
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.chatlist h3 {
+  padding: 0;
+  color: green;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin: 10px 0 10px 0px;
+}
+
+.chatlist ul {
+  list-style: none;
+  margin: 0;
+  float: left;
+  padding: 0px;
+  width: 100%;
+}
+
+.chatlist ul li {
+  float: left;
+  width: 100%;
+}
+
+.chatlist ul li .usericon {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+.chatlist ul li .userinfo {
+  float: left;
+  width: 71%;
+  padding-top: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.chatlist ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.chatlist ul li h5 {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.chatlist ul li p {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.chatlist ul li span {
+  background: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 9px;
+  float: right;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  left: 180px;
+  bottom: 10px;
+}
